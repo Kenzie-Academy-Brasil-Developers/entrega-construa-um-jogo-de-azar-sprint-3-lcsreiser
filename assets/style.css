@@ -72,11 +72,13 @@ img{
    
 }
 .pedra, .papel, .tesoura{
-    margin: 0 15px;
+    margin: 0 20px;
 
 }
 .pedra:hover, .papel:hover, .tesoura:hover{
  
+    width: 125px;
+    height: 125px;
     background-color: cyan;
     color: white;
     cursor: pointer;
